@@ -1,0 +1,96 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test01Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            // "program": "${workspaceFolder}/src/test1/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/src/test1/test01.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+
+            ],
+            "preLaunchTask": "test01"
+        },
+        {
+            "name": "hashLaunch",
+            "type": "cppdbg",
+            "request": "launch",
+            // "program": "${workspaceFolder}/src/Hash_table/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/src/Hash_table/hash_fun.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+
+            ],
+            "preLaunchTask": "hash_fun"
+        },
+        {
+            "name": "struct_tree",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/test2/struct_tree.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+
+            ],
+            "preLaunchTask": "tree"
+        },
+        {
+            "name": "DFS",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/DFS/DFS.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+
+            ],
+            "preLaunchTask": "DFS"
+        }
+
+    ]
+}

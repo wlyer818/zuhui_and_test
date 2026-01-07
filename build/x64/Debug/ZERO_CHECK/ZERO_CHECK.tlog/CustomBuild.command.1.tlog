@@ -1,0 +1,10 @@
+^D:\CODEPRO\TEST\BUILD\CMAKEFILES\3466DC3690F5847B97CE23ECF572A9B7\GENERATE.STAMP.RULE
+setlocal
+D:\cmake-4.1.0-rc1-windows-x86_64\bin\cmake.exe -SD:/Codepro/test -BD:/Codepro/test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Codepro/test/build/MultiExe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

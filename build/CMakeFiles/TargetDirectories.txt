@@ -1,0 +1,6 @@
+D:/Codepro/test/build/CMakeFiles/facetoface.dir
+D:/Codepro/test/build/CMakeFiles/ls.dir
+D:/Codepro/test/build/CMakeFiles/single.dir
+D:/Codepro/test/build/CMakeFiles/test.dir
+D:/Codepro/test/build/CMakeFiles/ALL_BUILD.dir
+D:/Codepro/test/build/CMakeFiles/ZERO_CHECK.dir

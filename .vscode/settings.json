@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "unordered_set": "cpp",
+        "iostream": "cpp",
+        "memory": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "typeinfo": "cpp",
+        "queue": "cpp",
+        "ratio": "cpp",
+        "thread": "cpp",
+        "ostream": "cpp",
+        "mutex": "cpp",
+        "set": "cpp",
+        "vector": "cpp",
+        "new": "cpp",
+        "tuple": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp"
+    },
+    "workbench.colorTheme": "Default Dark Modern"
+}

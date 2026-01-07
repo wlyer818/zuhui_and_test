@@ -1,0 +1,10 @@
+^D:\CODEPRO\TEST\CMAKELISTS.TXT
+setlocal
+D:\cmake-4.1.0-rc1-windows-x86_64\bin\cmake.exe -SD:/Codepro/test -BD:/Codepro/test/build --check-stamp-file D:/Codepro/test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

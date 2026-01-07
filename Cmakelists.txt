@@ -1,0 +1,34 @@
+cmake_minimum_required(VERSION 3.20)
+project(MultiExe LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+set(CMAKE_BUILD_TYPE Debug)
+
+# ---------- OpenCV ----------
+set(OpenCV_DIR "D:/OpenCV/opencv/build")
+find_package(OpenCV REQUIRED)
+
+# ---------- 头文件公共搜索 ----------
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+# ---------- 遍历 src 下所有 .cpp ----------
+file(GLOB_RECURSE SRC_LIST CONFIGURE_DEPENDS
+     "src/*.cpp")
+
+# 为每个 cpp 生成一个可执行文件
+foreach(SRC ${SRC_LIST})
+    # 去掉路径与扩展名，得到纯文件名作为 target
+    get_filename_component(NAME_WE ${SRC} NAME_WE)
+    add_executable(${NAME_WE} ${SRC})
+    target_link_libraries(${NAME_WE} ${OpenCV_LIBS})
+
+    # Windows DLL 拷贝
+    if(WIN32)
+        add_custom_command(TARGET ${NAME_WE} POST_BUILD
+            COMMAND ${CMAKE_COMMAND} -E copy_if_different
+                    "${OpenCV_DIR}/x64/vc16/bin/opencv_world4100.dll"
+                    "$<TARGET_FILE_DIR:${NAME_WE}>"
+        )
+    endif()
+endforeach()
