@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
 project(MultiExe LANGUAGES CXX)
+if (MSVC)
+    add_compile_options(/utf-8)
+endif()
 
 set(CMAKE_CXX_STANDARD 17)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
@@ -11,7 +14,7 @@ find_package(OpenCV REQUIRED)
 
 # ---------- 头文件公共搜索 ----------
 include_directories(${OpenCV_INCLUDE_DIRS})
-
+include_directories(${CMAKE_SOURCE_DIR}/include)
 # ---------- 遍历 src 下所有 .cpp ----------
 file(GLOB_RECURSE SRC_LIST CONFIGURE_DEPENDS
      "src/*.cpp")

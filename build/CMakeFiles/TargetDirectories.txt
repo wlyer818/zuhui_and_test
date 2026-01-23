@@ -1,5 +1,10 @@
+D:/Codepro/test/build/CMakeFiles/adapter.dir
+D:/Codepro/test/build/CMakeFiles/bridge.dir
+D:/Codepro/test/build/CMakeFiles/facade.dir
 D:/Codepro/test/build/CMakeFiles/facetoface.dir
+D:/Codepro/test/build/CMakeFiles/flyweight.dir
 D:/Codepro/test/build/CMakeFiles/ls.dir
+D:/Codepro/test/build/CMakeFiles/proxy.dir
 D:/Codepro/test/build/CMakeFiles/single.dir
 D:/Codepro/test/build/CMakeFiles/test.dir
 D:/Codepro/test/build/CMakeFiles/ALL_BUILD.dir

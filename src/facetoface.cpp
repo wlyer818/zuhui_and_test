@@ -39,7 +39,7 @@ public:
     plant()=default;
     plant(const plant & p1){
         cout<<"copy plant\n";
-    }
+    }  
     ~plant(){
         cout<<"plant destruct\n";
     };

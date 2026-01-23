@@ -1,33 +1,23 @@
-#include <opencv2/opencv.hpp>
 #include <iostream>
-
-int main()
-{
-    // 0 通常是内置摄像头，1 开始是外接摄像头；若不确定可逐个试
-    int camera_id = 1;
-    cv::VideoCapture cap(camera_id);
-
-    if (!cap.isOpened())
+using namespace std;
+enum class Color : char {
+    red,
+    green,
+    blue
+};
+int main(){
+    Color color=Color::red;
+    switch (color)
     {
-        std::cerr << "ERROR: 无法打开摄像头 " << camera_id << "\n";
-        return -1;
+    case Color::blue:
+        cout<<"this is blue"<<endl;
+        cout<<"blue----"<<endl;
+        break;
+    case Color ::red:
+        cout<<"this is red"<<endl;
+        cout<<"red----"<<endl;
+        break;
+    default:
+        break;
     }
-
-    std::cout << "摄像头已打开，按 ESC 退出...\n";
-
-    cv::Mat frame;
-    while (true)
-    {
-        cap >> frame;                 // 抓取一帧
-        if (frame.empty()) break;     // 意外断流
-
-        cv::imshow("USB Camera", frame);
-
-        if (cv::waitKey(1) == 27)     // ESC 键
-            break;
-    }
-
-    cap.release();
-    cv::destroyAllWindows();
-    return 0;
 }

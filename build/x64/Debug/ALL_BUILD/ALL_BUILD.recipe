@@ -5,10 +5,25 @@
       <FullPath>D:\Codepro\test\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\adapter.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\bridge.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\facade.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\Codepro\test\bin\Debug\facetoface.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\flyweight.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\Codepro\test\bin\Debug\ls.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\proxy.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>D:\Codepro\test\bin\Debug\single.exe</FullPath>

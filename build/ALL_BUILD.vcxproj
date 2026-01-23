@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;D:\Codepro\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;D:\Codepro\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;D:\Codepro\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenCV\opencv\build\include;D:\Codepro\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,13 +174,33 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\adapter.vcxproj">
+      <Project>{9F147C61-994C-3B2B-8CC5-B7647A4B9206}</Project>
+      <Name>adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\bridge.vcxproj">
+      <Project>{D40A4639-8C40-3306-9583-E1886E667CA1}</Project>
+      <Name>bridge</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\facade.vcxproj">
+      <Project>{1C688D0F-4D34-32ED-9D67-F665DE9CA6FB}</Project>
+      <Name>facade</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\facetoface.vcxproj">
       <Project>{B482F83C-5DC7-3E1C-8FC0-4B7B8882A334}</Project>
       <Name>facetoface</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\flyweight.vcxproj">
+      <Project>{56FB39B8-9774-397A-A5E3-174465CE3983}</Project>
+      <Name>flyweight</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\ls.vcxproj">
       <Project>{D4658F9F-DDD4-3758-BE0A-705E0BF4456F}</Project>
       <Name>ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\proxy.vcxproj">
+      <Project>{CC4DAA4B-6C54-34EC-97D8-D567FE547077}</Project>
+      <Name>proxy</Name>
     </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\single.vcxproj">
       <Project>{18F6A4F3-B407-39C7-AEC8-D18D1F600077}</Project>
