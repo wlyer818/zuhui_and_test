@@ -1,11 +1,17 @@
 D:/Codepro/test/build/CMakeFiles/adapter.dir
 D:/Codepro/test/build/CMakeFiles/bridge.dir
+D:/Codepro/test/build/CMakeFiles/builder.dir
+D:/Codepro/test/build/CMakeFiles/composite.dir
+D:/Codepro/test/build/CMakeFiles/decorator.dir
 D:/Codepro/test/build/CMakeFiles/facade.dir
 D:/Codepro/test/build/CMakeFiles/facetoface.dir
 D:/Codepro/test/build/CMakeFiles/flyweight.dir
 D:/Codepro/test/build/CMakeFiles/ls.dir
+D:/Codepro/test/build/CMakeFiles/prototype.dir
 D:/Codepro/test/build/CMakeFiles/proxy.dir
 D:/Codepro/test/build/CMakeFiles/single.dir
+D:/Codepro/test/build/CMakeFiles/template.dir
 D:/Codepro/test/build/CMakeFiles/test.dir
+D:/Codepro/test/build/CMakeFiles/visitor.dir
 D:/Codepro/test/build/CMakeFiles/ALL_BUILD.dir
 D:/Codepro/test/build/CMakeFiles/ZERO_CHECK.dir

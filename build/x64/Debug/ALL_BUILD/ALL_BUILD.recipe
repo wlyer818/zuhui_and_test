@@ -11,6 +11,15 @@
       <FullPath>D:\Codepro\test\bin\Debug\bridge.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\builder.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\composite.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\decorator.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\Codepro\test\bin\Debug\facade.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
@@ -23,13 +32,22 @@
       <FullPath>D:\Codepro\test\bin\Debug\ls.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\prototype.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\Codepro\test\bin\Debug\proxy.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>D:\Codepro\test\bin\Debug\single.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\template.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\Codepro\test\bin\Debug\test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\Codepro\test\bin\Debug\visitor.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>D:\Codepro\test\build\x64\Debug\ALL_BUILD</FullPath>

@@ -182,6 +182,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{D40A4639-8C40-3306-9583-E1886E667CA1}</Project>
       <Name>bridge</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\builder.vcxproj">
+      <Project>{79599EE5-192B-350F-9289-256FAC6B41DF}</Project>
+      <Name>builder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\composite.vcxproj">
+      <Project>{757ED398-3952-36F6-B637-8FE6094E21C3}</Project>
+      <Name>composite</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\decorator.vcxproj">
+      <Project>{E5D8F100-7ADE-3A20-B0B5-04E72FEC2DAB}</Project>
+      <Name>decorator</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\facade.vcxproj">
       <Project>{1C688D0F-4D34-32ED-9D67-F665DE9CA6FB}</Project>
       <Name>facade</Name>
@@ -198,6 +210,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{D4658F9F-DDD4-3758-BE0A-705E0BF4456F}</Project>
       <Name>ls</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\prototype.vcxproj">
+      <Project>{6158A954-C12E-3E24-8B9D-4CB2916A9372}</Project>
+      <Name>prototype</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\proxy.vcxproj">
       <Project>{CC4DAA4B-6C54-34EC-97D8-D567FE547077}</Project>
       <Name>proxy</Name>
@@ -206,9 +222,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{18F6A4F3-B407-39C7-AEC8-D18D1F600077}</Project>
       <Name>single</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\template.vcxproj">
+      <Project>{2DFA1AF7-CB37-3CFA-B5CF-E579EE6368A2}</Project>
+      <Name>template</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\test.vcxproj">
       <Project>{3CDB8BF3-53DE-3AD7-B50D-595FD7E3D152}</Project>
       <Name>test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\visitor.vcxproj">
+      <Project>{74CC1C7C-AAD4-32A7-B941-A2F74CE9BE60}</Project>
+      <Name>visitor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

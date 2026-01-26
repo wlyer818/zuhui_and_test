@@ -6,13 +6,19 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Codepro/test/src/*.cpp")
 set(OLD_GLOB
   "D:/Codepro/test/src/adapter.cpp"
   "D:/Codepro/test/src/bridge.cpp"
+  "D:/Codepro/test/src/builder.cpp"
+  "D:/Codepro/test/src/composite.cpp"
+  "D:/Codepro/test/src/decorator.cpp"
   "D:/Codepro/test/src/facade.cpp"
   "D:/Codepro/test/src/facetoface.cpp"
   "D:/Codepro/test/src/flyweight.cpp"
   "D:/Codepro/test/src/ls.cpp"
+  "D:/Codepro/test/src/prototype.cpp"
   "D:/Codepro/test/src/proxy.cpp"
   "D:/Codepro/test/src/single.cpp"
+  "D:/Codepro/test/src/template.cpp"
   "D:/Codepro/test/src/test.cpp"
+  "D:/Codepro/test/src/visitor.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
