@@ -7,6 +7,7 @@ D:/Codepro/test/build/CMakeFiles/facade.dir
 D:/Codepro/test/build/CMakeFiles/facetoface.dir
 D:/Codepro/test/build/CMakeFiles/flyweight.dir
 D:/Codepro/test/build/CMakeFiles/ls.dir
+D:/Codepro/test/build/CMakeFiles/memento.dir
 D:/Codepro/test/build/CMakeFiles/observer.dir
 D:/Codepro/test/build/CMakeFiles/prototype.dir
 D:/Codepro/test/build/CMakeFiles/proxy.dir

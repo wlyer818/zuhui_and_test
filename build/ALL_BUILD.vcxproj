@@ -210,6 +210,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{D4658F9F-DDD4-3758-BE0A-705E0BF4456F}</Project>
       <Name>ls</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\memento.vcxproj">
+      <Project>{9F01B9C8-5950-3035-8964-9938E60C104E}</Project>
+      <Name>memento</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\observer.vcxproj">
       <Project>{D4B92F84-59AF-3BEB-A716-6BECF195E681}</Project>
       <Name>observer</Name>
