@@ -34,6 +34,7 @@ public:
 protected:
     list<Root*> m_list;
 };
+//容器类
 class Folder : public Root{
 public:
     using Root::Root;

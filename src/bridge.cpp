@@ -10,8 +10,8 @@ struct Person{
     Person(string name,string job,string ability,string reward,string remark){
         this->name=name;
         this->job=job;
-        this->ability;
-        this->reaward=reward;
+        this->ability=ability;
+        this->reward=reward;
         this->remark=remark;
     }
     ~Person(){
@@ -20,7 +20,7 @@ struct Person{
     string name;
     string job;
     string ability;
-    string reaward;
+    string reward;
     string remark;
 };
 class AbstractTeam{
@@ -38,7 +38,7 @@ public:
             cout<<"[Name : "<<it.second->name
             <<",job : "<<it.second->job
             <<",ability : "<<it.second->ability
-            <<",reward : "<<it.second->reaward
+            <<",reward : "<<it.second->reward
             <<",remark : "<<it.second->remark;
         }
     }
@@ -93,7 +93,7 @@ public:
     }
 
 };
-class HaaijunShip : public AbstractShip{
+class HaijunShip : public AbstractShip{
 public:
     using AbstractShip::AbstractShip;
     void feature(){
