@@ -74,7 +74,7 @@ class Manage {
 public:
     Manage(){}
     void setElement(ParkElement* park){
-        m_list.insert(m_list.end(),park);
+        m_list.emplace_back(park);
 
     }
     void accept(Visitor* visitor){
@@ -83,7 +83,7 @@ public:
         }
     }
 private:
-    list<ParkElement*> m_list;
+    std::vector<ParkElement*> m_list;
 };
 
 int main(){
