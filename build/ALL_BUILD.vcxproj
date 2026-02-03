@@ -222,6 +222,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{18F6A4F3-B407-39C7-AEC8-D18D1F600077}</Project>
       <Name>single</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\state.vcxproj">
+      <Project>{E8FEAD7F-0DE0-3388-95C1-DCDA0C08744F}</Project>
+      <Name>state</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\template.vcxproj">
       <Project>{2DFA1AF7-CB37-3CFA-B5CF-E579EE6368A2}</Project>
       <Name>template</Name>

@@ -10,6 +10,7 @@ D:/Codepro/test/build/CMakeFiles/ls.dir
 D:/Codepro/test/build/CMakeFiles/prototype.dir
 D:/Codepro/test/build/CMakeFiles/proxy.dir
 D:/Codepro/test/build/CMakeFiles/single.dir
+D:/Codepro/test/build/CMakeFiles/state.dir
 D:/Codepro/test/build/CMakeFiles/template.dir
 D:/Codepro/test/build/CMakeFiles/test.dir
 D:/Codepro/test/build/CMakeFiles/visitor.dir

@@ -16,6 +16,7 @@ set(OLD_GLOB
   "D:/Codepro/test/src/prototype.cpp"
   "D:/Codepro/test/src/proxy.cpp"
   "D:/Codepro/test/src/single.cpp"
+  "D:/Codepro/test/src/state.cpp"
   "D:/Codepro/test/src/template.cpp"
   "D:/Codepro/test/src/test.cpp"
   "D:/Codepro/test/src/visitor.cpp"
