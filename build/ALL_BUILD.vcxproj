@@ -206,6 +206,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{56FB39B8-9774-397A-A5E3-174465CE3983}</Project>
       <Name>flyweight</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\iterator.vcxproj">
+      <Project>{FBCC32EC-E34C-3272-A3B5-FA8F652629F2}</Project>
+      <Name>iterator</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\ls.vcxproj">
       <Project>{D4658F9F-DDD4-3758-BE0A-705E0BF4456F}</Project>
       <Name>ls</Name>

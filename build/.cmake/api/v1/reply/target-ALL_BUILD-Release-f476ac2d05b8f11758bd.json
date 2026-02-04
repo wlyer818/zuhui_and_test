@@ -1,0 +1,96 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "adapter::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "flyweight::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "composite::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "facetoface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "bridge::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "decorator::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "facade::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "iterator::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ls::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "builder::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "visitor::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "state::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "observer::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "single::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "memento::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "strategy::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "prototype::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "mediator::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "proxy::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "template::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
