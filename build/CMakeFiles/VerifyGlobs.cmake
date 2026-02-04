@@ -13,6 +13,7 @@ set(OLD_GLOB
   "D:/Codepro/test/src/facetoface.cpp"
   "D:/Codepro/test/src/flyweight.cpp"
   "D:/Codepro/test/src/ls.cpp"
+  "D:/Codepro/test/src/mediator.cpp"
   "D:/Codepro/test/src/memento.cpp"
   "D:/Codepro/test/src/observer.cpp"
   "D:/Codepro/test/src/prototype.cpp"
