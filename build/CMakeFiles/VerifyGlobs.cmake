@@ -7,6 +7,8 @@ set(OLD_GLOB
   "D:/Codepro/test/src/adapter.cpp"
   "D:/Codepro/test/src/bridge.cpp"
   "D:/Codepro/test/src/builder.cpp"
+  "D:/Codepro/test/src/chain_of_responsibility.cpp"
+  "D:/Codepro/test/src/command.cpp"
   "D:/Codepro/test/src/composite.cpp"
   "D:/Codepro/test/src/decorator.cpp"
   "D:/Codepro/test/src/facade.cpp"

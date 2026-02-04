@@ -1,6 +1,8 @@
 D:/Codepro/test/build/CMakeFiles/adapter.dir
 D:/Codepro/test/build/CMakeFiles/bridge.dir
 D:/Codepro/test/build/CMakeFiles/builder.dir
+D:/Codepro/test/build/CMakeFiles/chain_of_responsibility.dir
+D:/Codepro/test/build/CMakeFiles/command.dir
 D:/Codepro/test/build/CMakeFiles/composite.dir
 D:/Codepro/test/build/CMakeFiles/decorator.dir
 D:/Codepro/test/build/CMakeFiles/facade.dir

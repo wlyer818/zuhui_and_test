@@ -186,6 +186,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{79599EE5-192B-350F-9289-256FAC6B41DF}</Project>
       <Name>builder</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\chain_of_responsibility.vcxproj">
+      <Project>{DA44A902-06E9-31CA-949A-56FEFDAD4BDD}</Project>
+      <Name>chain_of_responsibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Codepro\test\build\command.vcxproj">
+      <Project>{03A9E8DE-E595-3841-8DC1-C0A8279438F6}</Project>
+      <Name>command</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Codepro\test\build\composite.vcxproj">
       <Project>{757ED398-3952-36F6-B637-8FE6094E21C3}</Project>
       <Name>composite</Name>
